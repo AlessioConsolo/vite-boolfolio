@@ -6,3 +6,9 @@ Milestone 3 nome repo 2: vite-boolfolio Iniziamo ad occuparci della parte front-
 Milestone 4 Nel componente principale della nostra Vue App facciamo una chiamata API all’endpoint costruito nel progetto Laravel (milestone 1) e recuperiamo tutti i progetti dal nostro back-end. Stampiamo in console i risultati e verifichiamo di ricevere i dati correttamente.
 Milestone 5 Creiamo un nuovo componente ProjectCard, che corrisponde ad una card per visualizzare un progetto. Utilizziamo questo componente per visualizzare tutti i progetti ricevuti tramite API.
 Bonus: Gestire la paginazione dei risultati
+
+---
+
+Continuate a lavorare sulle repo aperte ieri, aggiungendo in vite-boolfolio la gestione delle rotte.
+Installate quindi il pacchetto vue-router con il comando npm i vue-router@4 e quindi create il file router.js in cui andare a definire le rotte delle vostre pagine.
+Realizzate un header in cui andare a mettere le voci del menù di navigazione. Dovrete fare due pagine obbligatoriamente: Homepage e Portfolio. In quest'ultima dovrete mostrare i vostri progetti.
