@@ -1,17 +1,19 @@
 <template lang="">
   <div id="app">
-    <h1>Lista Progetti</h1>
-    <AppProjects />
+    <AppHeader />
+    <router-view />
   </div>
 </template>
 <script>
 import AppProjects from "./components/AppProjects.vue";
 import ProjectCard from "./components/ProjectCard.vue";
+import AppHeader from "./components/AppHeader.vue";
 
 export default {
   components: {
     AppProjects,
     ProjectCard,
+    AppHeader,
   },
 };
 </script>

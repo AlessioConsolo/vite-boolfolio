@@ -35,3 +35,23 @@ ul {
   padding-left: 20px;
   list-style-type: disc;
 }
+
+$primary: #3498db;
+
+body {
+  background-color: #f9f9f9;
+  font-family: "Arial", sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #007bff !important;
+}
+
+.nav-link:hover {
+  color: #0056b3 !important;
+}
